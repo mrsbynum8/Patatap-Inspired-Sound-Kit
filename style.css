@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 canvas {
     width: 100%;
     height: 100%;
@@ -7,4 +9,13 @@ canvas {
 body, html {
     height: 100%;
     margin: 0;
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+header {
+    padding-top: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2em;
 }
